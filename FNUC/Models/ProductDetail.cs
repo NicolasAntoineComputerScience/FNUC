@@ -8,6 +8,7 @@ namespace FNUC.Models
 {
     public class ProductDetail
     {
+        [Key]
         public int ProduitsId { get; set; }
 
         [Required]
