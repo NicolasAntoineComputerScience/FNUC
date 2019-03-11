@@ -12,7 +12,7 @@ namespace FNUC.Models
         [Required]
         [Display(Name = "Nom")]
         public string Nom { get; set; }
-
+        [Display(Name = "Liste des sous categories")]
         public virtual List<Categorie> subCategories { get; set; }
     }
 }
