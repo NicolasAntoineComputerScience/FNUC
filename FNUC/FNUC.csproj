@@ -173,7 +173,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Categorie.cs" />
-    <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductDetail.cs" />
     <Compile Include="Models\ShoppingBasket.cs" />
     <Compile Include="Models\ShoppingProduct.cs" />
