@@ -34,7 +34,9 @@ namespace FNUC.Models
         [Required(ErrorMessage = "Erreur Type !")]
         [Display(Name = "Type")]
         public int TypeId { get; set; }
-        public virtual Type type { get; set; }
+
+
+        public virtual Categorie type { get; set; }
 
         [Required]
         [Display(Name = "Quantité en unité en stock :")]
