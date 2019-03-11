@@ -8,10 +8,10 @@ namespace FNUC.Models
 {
     public class ShoppingProduct
     {
+        [Key]
         public int ShoppingProductId { get; set; }
         [Display(Name = "Nom")]
         public string Nom { get; set; }
-
         public int ProductID { get; set; }
         public int Quantity { get; set; }
         public int PricePerUnity { get; set; }
